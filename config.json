@@ -1,7 +1,7 @@
 {
-    "name":"icebox",
-    "disqus":"name",
-    "style":["/assets/hack.css"],
+    "name":"Z.Wind.L's Blog",
+    "disqus":"zwindl",
+    "style":["/assets/patch.css", "/assets/hack.css", "/assets/github-dark.css"],
     "script":[],
     "links":[
         [{"name":"Test","href":"https://creativecommons.org/licenses/by-nc-sa/3.0/"}]
