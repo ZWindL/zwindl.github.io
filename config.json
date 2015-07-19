@@ -1,0 +1,9 @@
+{
+    "name":"icebox",
+    "disqus":"name",
+    "style":["/assets/hack.css"],
+    "script":[],
+    "links":[
+        [{"name":"Test","href":"https://creativecommons.org/licenses/by-nc-sa/3.0/"}]
+    ]
+}
