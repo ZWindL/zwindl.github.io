@@ -1,9 +1,10 @@
 {
     "name":"Z.Wind.L's Blog",
-    "disqus":"zwindl",
+    "disqus":"abc_",
     "style":["/assets/patch.css", "/assets/hack.css", "/assets/github-dark.css"],
     "script":[],
     "links":[
-        [{"name":"Test","href":"https://creativecommons.org/licenses/by-nc-sa/3.0/"}]
+        [{"name":"AboutMe","href":"https://creativecommons.org/licenses/by-nc-sa/3.0/"},
+         {"name":"Links","href":"https://creativecommons.org/licenses/by-nc-sa/3.0/"}]
     ]
 }
