@@ -125,3 +125,6 @@ cd ycm_build`
 修改 vimrc 更方便
 
 最后，终于能尽情使用了，简单测试了一下，没有明显的卡顿感
+
+#### 2015 07 23 更新
+关于 .ycm\_extra\_conf.py 的配置问题，建议参考这个项目 [newycm\_extra\_conf.py](https://github.com/robturtle/newycm_extra_conf.py); 使用方便，可以解决 C++ 不能补全标准库的问题
