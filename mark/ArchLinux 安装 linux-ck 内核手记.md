@@ -21,29 +21,35 @@
 
 使用 [Repo-ck](https://wiki.archlinux.org/index.php/Repo-ck)  
 编辑 /etc/pacman.conf 添加
-`[repo-ck]							
-Server = http://repo-ck.com/$arch
-Server = http://repo-ck.com/$arch
-Server = http://repo-ck.com/$arch
-Server = http://repo-ck.com/$arch
-Server = http://repo-ck.com/$arch
-Server = http://repo-ck.com/$arch
-Server = http://repo-ck.com/$arch`
+
+`[repo-ck]`							
+`Server = http://repo-ck.com/$arch`
+`Server = http://repo-ck.com/$arch`
+`Server = http://repo-ck.com/$arch`
+`Server = http://repo-ck.com/$arch`
+`Server = http://repo-ck.com/$arch`
+`Server = http://repo-ck.com/$arch`
+`Server = http://repo-ck.com/$arch`
 
 这里的地址一定要多添加几遍，具体原因在[这里](https://wiki.archlinux.org/index.php/Repo-ck#Downloads_interrupt_regularly)
 
 下面这步很重要，与上一步同样的原因，如果不修改下载器的话安装过程会让你疯掉  
 在 pacman.conf 中的 [Option] 段加入
+
 `XferCommand = /usr/bin/wget -c -q --show-progress --passive-ftp -O %o %u`
 
 然后执行这条(我执行总出错后来发现忽略也没什么事...)
+
 `pacman-key -r 5EE46C4C && pacman-key --lsign-key 5EE46C4C`
 
 刷新一下
+
 `pacman -Syy`
 
 在终端执行  
+
 `gcc -c -Q -march=native --help=target | grep march`
+
 然后安装对应的 linux-xxx (xxx 是执行命令得到的结果与 [这个表格](https://wiki.archlinux.org/index.php/Repo-ck#Selecting_the_correct_CPU_optimized_package) 对应的字符串)
 
 如果有 N 卡的话，建议安装 nvidia-ck-xxx
@@ -63,10 +69,10 @@ Server = http://repo-ck.com/$arch`
 然后建立新文件 arch-ck.conf  
 加入如下内容  
 
-`title   Arch Linux-ck kernel
-linux   /vmlinuz-linux-ck
-initrd  /initramfs-linux-ck.img
-options root=/dev/sdaX rw`
+`title   Arch Linux-ck kernel`
+`linux   /vmlinuz-linux-ck`
+`initrd  /initramfs-linux-ck.img`
+`options root=/dev/sdaX rw`
 
 这里需要注意, options 行的 sdaX 是 / 分区或是 /boot 分区的位置，根据自己的分区定
 
