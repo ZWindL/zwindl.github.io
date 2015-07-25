@@ -69,9 +69,9 @@
 然后建立新文件 arch-ck.conf  
 加入如下内容  
 
-`title   Arch Linux-ck kernel`
-`linux   /vmlinuz-linux-ck`
-`initrd  /initramfs-linux-ck.img`
+`title   Arch Linux-ck kernel`  
+`linux   /vmlinuz-linux-ck`  
+`initrd  /initramfs-linux-ck.img`  
 `options root=/dev/sdaX rw`
 
 这里需要注意, options 行的 sdaX 是 / 分区或是 /boot 分区的位置，根据自己的分区定
