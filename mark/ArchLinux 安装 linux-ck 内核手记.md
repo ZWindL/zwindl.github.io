@@ -15,7 +15,7 @@
 直接在 aur 中搜索 linux-ck，然后编译安装，如果不想听到电脑风扇的怒吼就不建议开启多线程了，建议开启 [bfq 调度器](http://algo.ing.unimo.it/people/paolo/disk_sched/)，
 另外 /tmp 空间可能不足，不过编译安装的是最适合自己口味的内核
 
-编译完请看后面的 <a href="Install BootLoader">添加到启动器</a> 部分
+编译完请看后面的 [添加到启动器](#Install BootLoader) 部分
 
 #### **方法二**
 
@@ -49,16 +49,16 @@ Server = http://repo-ck.com/$arch`
 如果有 N 卡的话，建议安装 nvidia-ck-xxx
 
 ### 添加到启动器
-<a name="Install BootLoader"></a>
+<a name="Install BootLoader"id="Install BootLoader"></a>
 
-**我使用了 UEFI 和 GPT 磁盘，MRB 分区表添加启动器的方式可能会略有不同。**这里介绍两种启动器，一种是 <a href="grub">Grub2</a> 另一种是 <a href="gummiboot">Gummiboot</a>，其他的暂时不算很了解
+**我使用了 UEFI 和 GPT 磁盘，MRB 分区表添加启动器的方式可能会略有不同。**这里介绍两种启动器，一种是 [Grub2](#grub) 另一种是 [Gummiboot](#gummiboot)，其他的暂时不算很了解
 
 ### Grub 启动器
-<a name="grub"></a>
+<a name="grub" id="grub"></a>
 可以参照[这里](https://wiki.archlinux.org/index.php/Linux-ck#Boot_loader_and_Linux-ck)设置
 
 ### Gummiboot
-<a name="gummiboot"></a>
+<a name="gummiboot" id="gummiboot"></a>
 以 root 身份进入 /boot/loader/entries  
 然后建立新文件 arch-ck.conf  
 加入如下内容  
