@@ -16,6 +16,6 @@
 	`openssl enc -d -des-ecb -nopad -K 478DA50BF9E3D2CF -in config.bin > a.txt`
 * a.txt 便是包含路由配置信息的明文文本
 * 将 链接1 中的代码保存为网页
-* 用浏览器打开这个网页，将 a.txt 中的 
-> authKey 0rZily4W9TefbwK 
-粘帖在解码栏内，就可以愉快地获得这款路由的控制权了，具体原理见 链接0
+* 用浏览器打开这个网页，将 a.txt 中的如下行粘帖在解码栏内，就可以愉快地获得这款路由的控制权了，具体原理见 链接0
+
+> `authKey 0rZily4W9TefbwK`
