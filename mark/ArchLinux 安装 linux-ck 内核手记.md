@@ -5,8 +5,8 @@
 ******
 昨日在 arch 论坛中看到了有人在用加 cjktty 补丁内核，所以决定尝试一下带 bfs 和 bfq 补丁的内核，体验一下"看得到的快"。
 有关 ck 内核的历史，特点以及安装途径都在下面的两个链接里  
-- [iBM dev](http://www.ibm.com/developerworks/cn/linux/l-cn-bfs/)
-- [IArchWik](https://wiki.archlinux.org/index.php/Linux-ck)
+- [IBM dev](http://www.ibm.com/developerworks/cn/linux/l-cn-bfs/)
+- [ArchWiki](https://wiki.archlinux.org/index.php/Linux-ck)
 
 ### 过程
 ******
