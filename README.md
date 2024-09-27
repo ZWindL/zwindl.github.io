@@ -44,8 +44,8 @@ Internationalization support - [Template with i18n](https://tailwind-nextjs-star
 - [thetalhatahir.com](https://www.thetalhatahir.com) - Talha Tahir's personal blog. Added article thumbnails, linkedIn card, Beautiful hero content, technology emoticons.
 - [homing.so](https://homing.so) - Homing's personal blog about the stuff he's learning ([source code](https://github.com/hominsu/blog))
 - [zS1m's Blog](https://contrails.space) - zS1m's personal blog for recording and sharing daily learning technical content ([source code](https://github.com/zS1m/nextjs-contrails))
-- [dariuszwozniak.net](https://dariuszwozniak.net/) - Software development blog ([source code](https://github.com/dariusz-wozniak/dariuszwozniak.net-v2))
-- [dreams.plus](https://dreams.plus) - Blog site for some thoughts and records for life and technology.
+- [dariuszwozniak.net](https://dariuszwozniak.net/) - Software development blog
+- [Terminals.run](https://terminals.run) - Blog site for some thoughts and records for life and technology.
 - [francisaguilar.co blog](https://francisaguilar.co) - Francis Aguilar's personal blog that talks about tech, fitness, and personal development.
 - [Min71 Dev Blog](https://min71.dev) - Personal blog about Blockchain, Development and etc. ([source code](https://github.com/mingi3442/blog))
 - [Bryce Yu's Blog](https://earayu.github.io/) - Bryce Yu's personal Blog about distributed system, database, and web development. ([source code](https://github.com/earayu/earayu.github.io))
@@ -70,13 +70,6 @@ Internationalization support - [Template with i18n](https://tailwind-nextjs-star
 - [LyricsDecode.com](https://lyricsdecode.com) - A song lyrics website offering original lyrics, Romanisation, and English translations with customisable viewing options.
 - [bmacharia.com](https://bmacharia.com/) - Benson Macharia's technical blog about Cybersecurity and IT Risk Management.
 - [armujahid.me](https://armujahid.me/) - Abdul Rauf's personal blog about tech and random stuff.
-- [leohuynh.dev](leohuynh.dev) - 🇻🇳 Leo's dev blog – stories, insights, and ideas. Add `/snippets`, `/books` pages, add `ProfileCard`, `CareerTimeline` components and many more.
-- [OpenSats Blog](https://opensats.org/blog) - A 501(c)(3) public charity which aims to sustainably fund free and open-source projects. ([source code](https://github.com/OpenSats/website))
-- [Schedles Blog](https://schedles.com/blog) - Social media scheduling tips, strategies, and product updates for content creators. ([Project Link](https://schedles.com))
-- [YawDev Blog](https://yawdev.org/blog) - IT-Agency / Software Development. Blog about tech and business ([Project Link](https://yawdev.org))
-- [Engineering Notes](https://www.jonvet.com) - Jonas Vetterle Personal Website & Blog. I'm writing articles about software engineering that interest me, including AI and Quantum Computing
-- [Screenager.dev](https://screenager.vercel.app) - Personal Website as Portfolio & Blog. Documenting my learning journey and some guides.
-- [kezhenxu94's blog](https://kezhenxu94.me) - Blogging about dev, tips & tricks, tutorials and more.
 
 Using the template? Feel free to create a PR and add your blog to this list.
 
@@ -326,7 +319,6 @@ Consider removing the following features that cannot be used in a static build:
 
 - [How can I add a custom MDX component?](/faq/custom-mdx-component.md)
 - [How can I customize the `kbar` search?](/faq/customize-kbar-search.md)
-- [Deploy with docker](/faq/deploy-with-docker.md)
 
 ## Support
 
