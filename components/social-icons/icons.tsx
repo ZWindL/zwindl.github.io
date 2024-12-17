@@ -110,3 +110,13 @@ export function Bluesky(svgProps: SVGProps<SVGSVGElement>) {
     </svg>
   )
 }
+
+export function Rss(svgProps: SVGProps<SVGSVGElement>) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...svgProps}>
+      <title>Rss</title>
+      <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+      <path d="M5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-3-8.5a1 1 0 0 1 1-1c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0c0-4.418-3.582-8-8-8a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1c3.313,0,6,2.687,6,6a1,1,0,1,1-2,0c0-2.209-1.791-4-4-4a1,1,0,0,1-1-1" />
+    </svg>
+  )
+}

@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Winston\'s Blog',
+  title: "Winston's Blog",
   author: 'Winston Li',
-  headerTitle: 'Winston zwindl\'s Blog',
+  headerTitle: "Winston zwindl's Blog",
   description: 'A blog created with tailwind-nextjs-starter-blog.',
   language: 'en-us',
   theme: 'system', // system, dark or light
@@ -18,10 +18,11 @@ const siteMetadata = {
   // facebook: 'https://facebook.com',
   // youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/winston-li-050b36200/',
-  threads: 'https://www.threads.net',
-  instagram: 'https://www.instagram.com',
-  medium: 'https://medium.com',
-  bluesky: 'https://bsky.app/',
+  // threads: 'https://www.threads.net',
+  // instagram: 'https://www.instagram.com',
+  // medium: 'https://medium.com',
+  // bluesky: 'https://bsky.app/',
+  rss: 'https://zwindl.github.io/feed.xml',
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
